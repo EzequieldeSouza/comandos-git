@@ -1,0 +1,60 @@
+git clone: Clona um repositório do GitHub para o seu computador. Útil para obter uma cópia local de um projeto.
+
+git init: Inicializa um novo repositório Git em um diretório local. Isso cria um novo repositório local vazio.
+
+git add: Adiciona arquivos ao índice (staging area) para prepará-los para o commit. Você pode especificar arquivos individuais ou usar "." para adicionar todos os arquivos modificados.
+
+git commit: Registra as mudanças feitas no repositório. Você deve adicionar uma mensagem explicativa sobre as alterações feitas.
+
+git push: Envia os commits locais para um repositório remoto (como o GitHub). Útil para compartilhar suas alterações com outras pessoas.
+
+git pull: Puxa as alterações de um repositório remoto e as mescla com o repositório local. Isso é usado para sincronizar seu repositório local com o repositório remoto.
+
+git status: Mostra o estado atual do repositório, incluindo arquivos modificados, arquivos adicionados e arquivos prontos para serem commitados.
+
+git branch: Lista, cria ou exclui branches. Branches são usados para trabalhar em recursos separados sem interferir no código principal.
+
+git checkout: Alterna entre branches ou restaura arquivos para uma versão específica. Útil para navegar entre diferentes partes do histórico do projeto.
+
+git merge: Mescla branches diferentes. Isso é usado para combinar o trabalho de diferentes branches em um único branch.
+
+git log: Mostra o histórico de commits do repositório. Isso inclui informações sobre quem fez as alterações e quando foram feitas.
+
+git remote: Gerencia conexões remotas. Você pode adicionar, renomear ou remover repositórios remotos.
+git log: Exibe o histórico de commits.
+git remote: Gerencia conexões remotas.
+git fetch: Busca todas as alterações do repositório remoto.
+git reset: Volta para um estado específico do commit.
+git stash: Salva alterações temporariamente e as remove do diretório de trabalho.
+git cherry-pick: Aplica um commit específico de um branch para o branch atual.
+git rebase: Reorganiza o histórico de commits.
+git tag: Marca commits específicos com versões.
+git diff: Exibe as diferenças entre arquivos.
+git blame: Exibe quem modificou cada linha de um arquivo.
+git show: Exibe informações sobre um commit específico.
+git submodule: Gerencia submódulos Git dentro de um repositório.
+git bisect: Ajuda a encontrar o commit que introduziu um bug.
+git revert: Desfaz um commit específico.
+git config: Configuração do Git.
+git archive: Cria um arquivo zip ou tar de um branch específico.
+git remote add: Adiciona um repositório remoto.
+git remote remove: Remove um repositório remoto.
+git remote rename: Renomeia um repositório remoto.
+git remote set-url: Define a URL de um repositório remoto.
+git clean: Remove arquivos não rastreados do diretório de trabalho.
+git config --global user.name: Define o nome do usuário Git globalmente.
+git config --global user.email: Define o email do usuário Git globalmente.
+git config --global core.editor: Define o editor de texto padrão para mensagens de commit.
+git log --graph: Exibe o histórico de commits em forma de grafo.
+git log --oneline: Exibe o histórico de commits em uma única linha por commit.
+git log --author: Filtra o histórico de commits por autor.
+git log --since: Filtra o histórico de commits desde uma data específica.
+git log --grep: Filtra o histórico de commits por uma mensagem de commit específica.
+git log --stat: Exibe estatísticas resumidas de alterações para cada commit.
+git log --follow: Exibe o histórico de commits para um arquivo específico, mesmo que tenha sido renomeado.
+git log --reverse: Exibe o histórico de commits em ordem reversa.
+git log --no-merges: Exibe o histórico de commits excluindo commits de merge.
+git shortlog: Resumo de commits por autor.
+git shortlog -s: Resumo de commits por autor, apenas contando as linhas alteradas.
+git shortlog -n: Resumo de commits por autor, classificados pelo número de commits.
+git shortlog -e: Resumo de commits por autor, incluindo seus emails.
